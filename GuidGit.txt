@@ -1,0 +1,42 @@
+Local:initialisation
+
+echo "# POO" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git status 
+git push -u origin master envoi sur le distant 
+�quotidiennement 
+Si besoin le matin importer le master distant 
+git pull https://github.com/aamarni/POO
+
+local bonnes pratiques :
+cr�er une nouvelle branche PS :ne jamais travailler sur le master
+                git branch toto
+ basculer sur la nouvelle branhce 
+                 git checkout �m toto
+travailler sur son projet :
+le soir pour verifier sa feuille de travaille :
+    	git status
+ en rouge les nouveau fichier cre�s ou modiofi�s
+pour preparer un fichier � l�envoi sur le depots distant
+	git add   mon fichier 
+ou
+pour ajouter prepaparer tout les fichiers � lenvoi
+	git add .
+commentter sa barache et la mettre en satut prete � envoyer 
+	git commit �m     �comenteiare sur son travail �
+pousser son travail 
+	git push -u https://github.com/aamarni/POO
+
+sur le repos distant le responsable merge les branche 
+le lendemain matins assuer quon est sur le master local
+	git checkout �m matser
+recuperer le travail fusionn�
+	git pull https://github.com/aamarni/POO
+cr�er une autre branche 
+	git branch toto2
+basculer sur toto2  (ne jamais travailler sur le master)
+	git checkout �m toto2
+ et bonne journn�e de travaille
+
